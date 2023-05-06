@@ -1217,6 +1217,11 @@ input[type="checkbox"]:checked
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
+@media only screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+}
 
 .menu-container.is-open {
   transform: translateX(0);
